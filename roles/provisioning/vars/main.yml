@@ -1,0 +1,9 @@
+---
+# vars file for provisioning
+instance_type: t2.micro
+sec_group_name: giropops
+image: ami-02aa7f3de34db391a
+keypair: ansible-aws
+region: us-east-2
+count: 3
+profile: giropops
